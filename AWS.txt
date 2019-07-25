@@ -28,6 +28,7 @@ serverless config credentials --provider aws --key AKIASFYJQZMLUYM4 --secret xM+
 ng new myawesomeapp
 myawesomeapp>ng add @ng-toolkit/universal
 myawesomeapp>ng add @ng-toolkit/serverless --provider aws
+myawesomeapp>npm audit fix --force
 myawesomeapp>npm i @webpack-cli/update
 
 ---------change runtime in *.yml file-----and .serverless folder every .json file-----------
@@ -85,3 +86,11 @@ ApiLambdaFunction - The runtime parameter of nodejs6.10 is no longer supported f
  serverless.yml
  
 make::::::    "Runtime": "nodejs8.10",                
+
+
+
+RDS
+http://customer-env.73tus8t6v8.ap-south-1.elasticbeanstalk.com/api/users
+angular
+https://qv3l0yq2rh.execute-api.eu-central-1.amazonaws.com/production/
+https://gpnr8bi5q3.execute-api.eu-central-1.amazonaws.com/production/
