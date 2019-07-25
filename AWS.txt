@@ -15,14 +15,14 @@ npm install npm@latest -g
 IAM
 angularuser 123456  Policy:Administrator Access
 AKIASFYJQZMLZV36U7X7 
-/JzkxaZRz1nSRWLG3ynJGXAVwivlEyEdZPQ8h3Ur
+/JzkxaZRz1nSRWLG3ynJGXAVwiv
 
 npm install -g serverless
 
-serverless config credentials --provider aws --key AKIASFYJQZMLZV36U7X7 --secret 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 --overwrite
+serverless config credentials --provider aws --key AKIASFYJQZMLZV36U7X7 --secret /JzkxaZRz1nSRWLG3ynJGXAVw --overwrite
 
 IAM cardinal-deepak Access:administrator
-serverless config credentials --provider aws --key AKIASFYJQZMLUJE6IYM4 --secret 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 --overwrite
+serverless config credentials --provider aws --key AKIASFYJQZMLUJE6IYM4 --secret xM+MDZRDFImnII6qh3FLySqrB --overwrite
 
 
 ng new myawesomeapp
